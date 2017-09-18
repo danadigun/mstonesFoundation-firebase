@@ -1,0 +1,72 @@
+a:focus, 
+a:hover, 
+#navigation .navbar-right .dropdown-menu li a:hover, 
+.search i:hover, 
+.call-to-action span, 
+.list-info span, 
+.member-info ul li a:hover, 
+.member-info .lead, #contact i, 
+#contact a.contact-info:hover{	
+	color:#D8251A;
+}
+
+.section-title:after, 
+.btn-primary, 
+#navigation .navbar-right li a span:after, 
+#navigation .navbar-fixed-top, 
+.carousel-indicators .active, 
+.list-image:after, 
+.list-image:before, 
+#event-carousel .event-date, 
+.become-volunteer  {	
+	background-color:#D8251A;	
+}
+.btn-primary, 
+.carousel-indicators .active, 
+#contact-form input:focus, 
+#contact-form textarea:focus {
+	border-color:#D8251A;
+}
+.search-form {
+	border:1px solid #D8251A;
+}
+.single-post .post-image:before {
+	border-color: #F9C302 transparent transparent;
+}
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.carousel-caption .btn-primary:hover,
+.btn-default:hover, .btn-default:focus, 
+#video-section .nav-tabs>li.active>a, 
+#video-section .nav-tabs>li >a:hover  {
+	background-color:#0A95C9;
+	border-color: 
+}
+
+#event-carousel .single-event:hover .event-date, 
+#footer{
+	background-color: #D8251A;
+}
+
+.btn-default, .btn-primary {
+	background-color: #D8251A !important;
+	border-color: #D8251A !important;
+}
+.btn-default:hover, .btn-primary:hover {
+	border-color: #F9C302 !important;
+	background-color: #F9C302 !important;
+	color: #FFFFFF !important;
+}
+.photo-info {
+	background-color:#F9C302;
+}
+#donations{
+	background-color: #F9C302;	
+}
+.progress-striped .progress-bar, .progress-bar-striped {
+	background-image: linear-gradient(45deg, rgba(0, 174, 239, 0.99) 25%, transparent 25%, transparent 50%, rgb(249, 195, 2) 50%, rgb(249, 195, 2) 75%, transparent 75%, transparent);
+}
+.round-progress .progress-bar {
+	background-color: #D8251A; 
+}
