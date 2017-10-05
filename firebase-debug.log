@@ -1,98 +1,40 @@
-[debug] ----------------------------------------------------------------------
-[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\danWin-PC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] CLI Version:  3.6.1
-[debug] Platform:     win32
-[debug] Node Version: v7.9.0
-[debug] Time:         Mon Sep 18 2017 10:19:45 GMT+0100 (W. Central Africa Standard Time)
-[debug] ----------------------------------------------------------------------
+[debug] [2017-10-05T09:13:42.832Z] ----------------------------------------------------------------------
+[debug] [2017-10-05T09:13:42.834Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-10-05T09:13:42.834Z] CLI Version:   3.10.1
+[debug] [2017-10-05T09:13:42.834Z] Platform:      darwin
+[debug] [2017-10-05T09:13:42.834Z] Node Version:  v7.9.0
+[debug] [2017-10-05T09:13:42.835Z] Time:          Thu Oct 05 2017 10:13:42 GMT+0100 (WAT)
+[debug] [2017-10-05T09:13:42.835Z] ----------------------------------------------------------------------
 [debug] 
-[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mstonesfoundation  
- Mon Sep 18 2017 10:19:45 GMT+0100 (W. Central Africa Standard Time)
-[debug] <<< HTTP RESPONSE 200
-[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mstonesfoundation/tokens  
- Mon Sep 18 2017 10:19:47 GMT+0100 (W. Central Africa Standard Time)
-[debug] <<< HTTP RESPONSE 200
-[info] Starting Firebase development server...
-[info] 
-[info] Project Directory: C:\Users\danWin-PC\Desktop\MSF-PROJ
-[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/mstonesfoundation  
- Mon Sep 18 2017 10:19:49 GMT+0100 (W. Central Africa Standard Time)
-[debug] <<< HTTP RESPONSE 200
-[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/17695074200/clients/_:getWebAppConfig  
- Mon Sep 18 2017 10:19:51 GMT+0100 (W. Central Africa Standard Time)
-[debug] <<< HTTP RESPONSE 200
-[info] Public Directory: public
-[info] 
-[info] Server listening at: http://localhost:5000
-[info] Shutting down...
-[debug] ----------------------------------------------------------------------
-[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\danWin-PC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] CLI Version:  3.6.1
-[debug] Platform:     win32
-[debug] Node Version: v7.9.0
-[debug] Time:         Mon Sep 18 2017 10:35:15 GMT+0100 (W. Central Africa Standard Time)
-[debug] ----------------------------------------------------------------------
+[debug] [2017-10-05T09:13:42.848Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-05T09:13:42.848Z] > authorizing via signed-in user
+[debug] [2017-10-05T09:13:42.850Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mstonesfoundation  
+ Thu Oct 05 2017 10:13:42 GMT+0100 (WAT)
+[debug] [2017-10-05T09:14:45.010Z] ----------------------------------------------------------------------
+[debug] [2017-10-05T09:14:45.012Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-10-05T09:14:45.012Z] CLI Version:   3.10.1
+[debug] [2017-10-05T09:14:45.012Z] Platform:      darwin
+[debug] [2017-10-05T09:14:45.012Z] Node Version:  v7.9.0
+[debug] [2017-10-05T09:14:45.013Z] Time:          Thu Oct 05 2017 10:14:45 GMT+0100 (WAT)
+[debug] [2017-10-05T09:14:45.013Z] ----------------------------------------------------------------------
 [debug] 
-[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/nsFwh9WqGsNqRkw0RNzWGv_m3GLgEaCcTBvsdR4TNQSCAOCvDyDHBeTy-8Df52kf',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Mon Sep 18 2017 10:35:15 GMT+0100 (W. Central Africa Standard Time)
-[debug] <<< HTTP RESPONSE 200
-[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mstonesfoundation  
- Mon Sep 18 2017 10:35:16 GMT+0100 (W. Central Africa Standard Time)
-[debug] <<< HTTP RESPONSE 200
-[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mstonesfoundation/tokens  
- Mon Sep 18 2017 10:35:17 GMT+0100 (W. Central Africa Standard Time)
-[debug] <<< HTTP RESPONSE 200
-[info] Starting Firebase development server...
+[debug] [2017-10-05T09:14:45.024Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-05T09:14:45.024Z] > authorizing via signed-in user
+[debug] [2017-10-05T09:14:45.026Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mstonesfoundation  
+ Thu Oct 05 2017 10:14:45 GMT+0100 (WAT)
+[debug] [2017-10-05T09:14:46.677Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-05T09:14:46.678Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mstonesfoundation/tokens  
+ Thu Oct 05 2017 10:14:46 GMT+0100 (WAT)
+[debug] [2017-10-05T09:14:47.872Z] <<< HTTP RESPONSE 200
 [info] 
-[info] Project Directory: C:\Users\danWin-PC\Desktop\MSF-PROJ
-[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/mstonesfoundation  
- Mon Sep 18 2017 10:35:19 GMT+0100 (W. Central Africa Standard Time)
-[debug] <<< HTTP RESPONSE 200
-[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/17695074200/clients/_:getWebAppConfig  
- Mon Sep 18 2017 10:35:21 GMT+0100 (W. Central Africa Standard Time)
-[debug] <<< HTTP RESPONSE 200
-[info] Public Directory: public
+[info] === Serving from '/Users/danieladigun/Desktop/mstonesFoundation-firebase'...
 [info] 
-[info] Server listening at: http://localhost:5000
-[debug] ----------------------------------------------------------------------
-[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\danWin-PC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] CLI Version:  3.6.1
-[debug] Platform:     win32
-[debug] Node Version: v7.9.0
-[debug] Time:         Wed Sep 20 2017 10:59:32 GMT+0100 (W. Central Africa Standard Time)
-[debug] ----------------------------------------------------------------------
-[debug] 
-[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/nsFwh9WqGsNqRkw0RNzWGv_m3GLgEaCcTBvsdR4TNQSCAOCvDyDHBeTy-8Df52kf',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Wed Sep 20 2017 10:59:32 GMT+0100 (W. Central Africa Standard Time)
-[debug] <<< HTTP RESPONSE 200
-[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mstonesfoundation  
- Wed Sep 20 2017 10:59:36 GMT+0100 (W. Central Africa Standard Time)
-[debug] <<< HTTP RESPONSE 200
-[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mstonesfoundation/tokens  
- Wed Sep 20 2017 10:59:40 GMT+0100 (W. Central Africa Standard Time)
-[debug] <<< HTTP RESPONSE 200
-[info] Starting Firebase development server...
-[info] 
-[info] Project Directory: C:\Users\danWin-PC\Desktop\MSF-PROJ
-[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/mstonesfoundation  
- Wed Sep 20 2017 10:59:50 GMT+0100 (W. Central Africa Standard Time)
-[debug] <<< HTTP RESPONSE 200
-[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/17695074200/clients/_:getWebAppConfig  
- Wed Sep 20 2017 10:59:56 GMT+0100 (W. Central Africa Standard Time)
-[debug] <<< HTTP RESPONSE 200
-[info] Public Directory: public
-[info] 
-[info] Server listening at: http://localhost:5000
+[debug] [2017-10-05T09:14:47.875Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/mstonesfoundation  
+ Thu Oct 05 2017 10:14:47 GMT+0100 (WAT)
+[debug] [2017-10-05T09:14:49.512Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-05T09:14:49.512Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/17695074200/clients/_:getWebAppConfig  
+ Thu Oct 05 2017 10:14:49 GMT+0100 (WAT)
+[debug] [2017-10-05T09:14:50.635Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
