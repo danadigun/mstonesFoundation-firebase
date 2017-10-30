@@ -1,0 +1,28 @@
+[debug] [2017-10-30T06:38:41.134Z] ----------------------------------------------------------------------
+[debug] [2017-10-30T06:38:41.137Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-10-30T06:38:41.137Z] CLI Version:   3.10.1
+[debug] [2017-10-30T06:38:41.137Z] Platform:      darwin
+[debug] [2017-10-30T06:38:41.137Z] Node Version:  v7.9.0
+[debug] [2017-10-30T06:38:41.138Z] Time:          Mon Oct 30 2017 07:38:41 GMT+0100 (WAT)
+[debug] [2017-10-30T06:38:41.138Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-30T06:38:41.151Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-30T06:38:41.151Z] > authorizing via signed-in user
+[debug] [2017-10-30T06:38:41.153Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mstonesfoundation  
+ Mon Oct 30 2017 07:38:41 GMT+0100 (WAT)
+[debug] [2017-10-30T06:38:43.120Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-30T06:38:43.121Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mstonesfoundation/tokens  
+ Mon Oct 30 2017 07:38:43 GMT+0100 (WAT)
+[debug] [2017-10-30T06:38:44.961Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/danieladigun/Desktop/PROJECTS/mstonesFoundation-firebase'...
+[info] 
+[debug] [2017-10-30T06:38:44.964Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/mstonesfoundation  
+ Mon Oct 30 2017 07:38:44 GMT+0100 (WAT)
+[debug] [2017-10-30T06:38:46.387Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-30T06:38:46.387Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/17695074200/clients/_:getWebAppConfig  
+ Mon Oct 30 2017 07:38:46 GMT+0100 (WAT)
+[debug] [2017-10-30T06:38:47.708Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
