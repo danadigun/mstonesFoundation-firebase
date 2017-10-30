@@ -2,6 +2,9 @@
 (function($){
     $(document).ready(function(){
 
+        //display ad
+        $('#myModal').modal()
+
         $(function(){
             $(window).scroll(function(){
                 if($(this).scrollTop() > 100){

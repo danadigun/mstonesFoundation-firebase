@@ -5,7 +5,7 @@ body, h1{
 a.navbar-brand {
     /*color: #fff;*/
     /* margin-left: 45% !important; */
-    margin-bottom:-1em;
+    margin-bottom:-3em;
     /* background:#D8251A; */
     background:white;
     padding:1em;
@@ -55,6 +55,28 @@ a.navbar-brand {
 .container {
     padding: 2px 16px;
 }
+
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px;
+    border-bottom: none;
+}
+.modal-content {
+    position: relative;
+    background-color:transparent;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+.modal-body img{
+    width:550px;
+    height:auto;
+}
 @media (min-width:320px) and (max-width:750px){
     a.navbar-brand {
       /*color: #fff;*/
@@ -62,5 +84,18 @@ a.navbar-brand {
       margin-left: 0 !important;
       margin-bottom:1em;
       margin-top:1em;
+    }
+
+    .modal-body img{
+        width:400px;
+        height:auto;
+    }
+
+    #myModal{
+        margin-top:10%;
+    }
+
+    .navbar-brand{
+        visibility: hidden;
     }
 }
